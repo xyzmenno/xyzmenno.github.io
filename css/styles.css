@@ -40,6 +40,13 @@ i {
     }
 }
 
+.socials i {
+    transition: 0.2s;
+}
+.socials i:hover {
+    opacity: 0.5;
+}
+
 .socials {
     display: flex;
 }
