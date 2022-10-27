@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-/* body {
-    font-family: ;
-} */
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
 
 .header {
     z-index: 1;
@@ -13,7 +15,8 @@
     background-size: 400% 400%;
     width: 100%;
     height: 100vh;
-    animation: animate 15s ease infinite;
+    animation: animate 20s ease infinite;
+    color: white;
 }
 
 @keyframes animate {
