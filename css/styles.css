@@ -15,7 +15,7 @@ body {
     background-size: 400% 400%;
     width: 100%;
     height: 100vh;
-    animation: animate 70s ease infinite;
+    animation: BackgroundAnimation 70s ease infinite;
     color: white;
 }
 
