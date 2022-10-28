@@ -57,7 +57,7 @@ ul{
 }
 
 
-#wrapper {
+#preloader {
     display: flex;
     background-color: #181C28;
     min-height: 100vh;
