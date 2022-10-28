@@ -20,22 +20,23 @@
     </header>
   </div>
 
-  <form>
-    <div class="mb-3 col-5">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3 col-5">
-      <label for="exampleInputPassword1" class="form-label">Subject</label>
-      <input type="text" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 ol-5">
-      <label for="exampleInputPassword1" class="form-label">Message</label>
-      <input type="text" class="form-control" id="text">
-    </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+  <div class="container d-flex justify-content-center">
+    <form class="container">
+      <div class="mb-3 col-12 col-lg-8">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3 col-12 col-lg-8">
+        <label for="exampleInputPassword1" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject">
+      </div>
+      <div class="mb-3 col-12 col-lg-8">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-primary">Submit</button>
+    </form>
+  </div>
 
     <!-- js import -->
     <script src="js/main.js"></script>
